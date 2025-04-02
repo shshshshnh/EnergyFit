@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EnargyFit</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <header class="header none1">
+        <div class="header__top">
+            <div class="container">
+                <div class="header__top-row">
+
+                    <a href="#!">
+                        <img src="./scss/изображения/лого.svg" alt="EnergyFit">
+                    </a>
+
+                    <div class="header__nav">
+                        <nav class="nav">
+                            <ul class="nav__list">
+                                <li><a href="#about">О клубе</a></li>
+                                <li><a href="#zapis">Запись</a></li>
+                                <li><a href="#!">Расписание</a></li>
+                                <li><a href="#!">Тренеры</a></li>
+                                <li><a href="#contacts">Контакты</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <div class="header__nav-btn">
+                        <button class="nav-icon-btn">
+                            <div class="nav-icon"></div>
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <h1 class="header__title">
+                Твоя энергия - твой<br>
+                результат
+                <a href="#benefits">
+                    <img
+                        src="./header/mouse.svg"
+                        alt="Scroll next"
+                        class="header__title-icon"
+                    >
+                </a>
+            </h1>
+        </div>
+
+        <div class="header__footer">
+            <div class="text-right">
+                <a href="#section-map" class="info info--map">г.Кандалакша, Мурманская обл.</a>
+            </div>
+            <a href="tel:+79210409686" class="info info--tel">8 (123) 456-78-90</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="benefits none1">
+            <h2 class="visually-hidden">Преимущества ЖК</h2>
+
+            <div class="container container--sm">
+                <div class="benefits__row">
+                    <img src="./scss/изображения/характеристика.png" alt=''>
+
+                </div>
+            </div>
+
+        </section>
+
+        <section class="apartments none1">
+            <div class="container">
+
+                <div class="apartments__title" id ='about'>
+                    <h2 class="title-2">Зоны клуба</h2>
+                </div>
+
+                <div class="apartments__cards">
+
+                    <a href="#!" class="card">
+                        <img class="card__img" src="./scss/зоны/6288409505 (1).jpg" alt="Несколько залов">
+                        <h3 class="card__title">Несколько залов</h3>
+                    </a>
+
+                    <a href="#!" class="card">
+                        <img class="card__img" src="./scss/зоны/02.jpg" alt="Зона отдыха">
+                        <h3 class="card__title">Зона отдыха</h3>
+                    </a>
+
+                    <a href="#!" class="card">
+                        <img class="card__img" src="./scss/зоны/92d4f9d4690dc3216d0b7786071dd7bb.jpg" alt="Танцевальный зал">
+                        <h3 class="card__title">Танцевальный зал</h3>
+                    </a>
+
+                    <a href="#!" class="card">
+                        <img class="card__img" src="./scss/зоны/91dd4be17ba0f614803113d81c902061 (1).jpg" alt="Сауна">
+                        <h3 class="card__title">Сауна</h3>
+                    </a>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="cta none1" id = 'zapis'>
+            <div class="container">
+                <div class="cta__title">
+                    <h2 class="title-2">Хотите записаться?</h2>
+                </div>
+                <div class="cta__wrapper">
+
+                    <div class="cta__text">
+                        <p>Зал фитнес-клуба EnergyFit - это современное пространство, созданное для комфортных и эффективных тренировок. Мы позаботились о том, чтобы каждый клиент чувствовал себя уверенно и мог достигать своих целей в приятной атмосфере.</p>
+                    </div>
+
+                    <form action="" class="cta__form form">
+                        <input type="text" class="form__input" placeholder="Ваше имя" autocomplete="off">
+                        <input data-tel-input type="text" class="form__input" placeholder="Ваш телефон" autocomplete="off">
+
+                        <p class="form__privacy form__privacy--bottom">
+                            *Мы никому не передаем ваши данные. <br>И не сохраняем ваш номер в базу.
+                        </p>
+
+                        <button type="submit" class="form__btn">Записаться</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="feedback none1" id ='contacts' >
+            <div class="container">
+                <div class="feedback__title">
+                    <h2 class="title-2">Есть вопросы?</h2>
+                </div>
+                <form class="feedback__form form">
+
+                    <p class="form__privacy form__privacy--bottom">
+                        *Оставьте номер, и мы вам перезвоним
+                    </p>
+
+                    <input type="text" class="form__input" placeholder="Ваше имя" autocomplete="off">
+                    <input data-tel-input type="text" class="form__input" placeholder="Ваш телефон" autocomplete="off">
+
+                    <button type="submit" class="form__btn">Записаться</button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer none1">
+        <div class="container">
+            <div class="footer__grid">
+                <div class="footer__logo">
+                    <a href="#!">
+                        <img src="./scss/изображения/лого.svg" alt="EnergyFit">
+                    </a>
+                </div>
+                <div class="footer__nav">
+                    <nav>
+                        <ul class="footer__nav-list">
+                            <li><a href="#about">О клубе</a></li>
+                            <li><a href="#zapis">Запись</a></li>
+                            <li><a href="#!">Расписание</a></li>
+                            <li><a href="#!">Тренеры</a></li>
+                            <li><a href="#">Контакты</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="footer__nav">
+                     <nav>
+                        <ul class="footer__nav-list">
+                            <li><a href="#!">Отзывы клиентов</a></li>
+                            <li><a href="#!">Сервисные услуги</a></li>
+                            <li><a href="#!">Месторасположение</a></li>
+                            <li><a href="#!">Получить консультацию</a></li>
+                            <li><a href="#!">Программа лояльности</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="footer__address">
+                    <ul class="footer__nav-list">
+                        <li>Адрес: г. Кандалакша</li>
+                        <li>Телефон: <a href="tel:+79210409686">8 (123) 456-78-90</a></li>
+                        <li>Режим работы: 10:00 - 20:00</li>
+                        <li>E-mail: <a class="link-bold" href="mailto:shustinaaa@yandex.ru">vip@EnergyFit.ru</a></li>
+                    </ul>
+                    <ul class="footer__socials">
+                        <li><a href="#!"><img src="./scss/socials/youtube.svg" alt=""></a></li>
+                        <li><a href="#!"><img src="./scss/socials/vk.svg" alt=""></a></li>
+                        <li><a href="#!"><img src="./scss/socials/instagram.svg" alt=""></a></li>
+                        <li><a href="#!"><img src="./scss/socials/facebook.svg" alt=""></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./libs/phoneMask/mask.js"></script>
+    <script src="./libs/phoneMask/mask_list.js"></script>
+
+    <script src="./js/main.js"></script>
+
+</body>
+</html>
